@@ -81,11 +81,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESC    &kp_tap_or_hold EXCL KP_NUMBER_1  &kp_tap_or_hold AT KP_NUMBER_2  &kp_tap_or_hold HASH KP_NUMBER_3  &kp_tap_or_hold DOLLAR KP_NUMBER_4  &kp_tap_or_hold PERCENT KP_NUMBER_5                            &kp_tap_or_hold CARET KP_NUMBER_6  &kp_tap_or_hold AMPERSAND KP_NUMBER_7  &kp_tap_or_hold STAR KP_NUMBER_8  &kp_tap_or_hold LEFT_PARENTHESIS KP_NUMBER_9  &kp_tap_or_hold RIGHT_PARENTHESIS KP_NUMBER_0  &none
-&kp GRAVE  &kp Q                             &kp W                           &kp E                             &kp R                               &kp T                                                          &kp Y                              &kp U                                  &kp I                             &kp O                                         &kp P                                          &kp BSPC
-&kp TAB    &kp A                             &kp S                           &kp D                             &kp F                               &kp G                                                          &kp H                              &kp J                                  &kp K                             &kp L                                         &kp SEMI                                       &kp SQT
-&kp LSHFT  &kp Z                             &kp X                           &kp C                             &kp V                               &kp B                                &kp C_MUTE    &kp LG(N0)  &kp N                              &kp M                                  &kp COMMA                         &kp DOT                                       &kp FSLH                                       &shift_or_caps
-                                             &kp LEFT_CONTROL                &kp LALT                          &kp LEFT_COMMAND                    &kp SPACE                            &mo 1         &layer2or3  &kp ENTER                          &kp RCTRL                              &kp RALT                          &kp RGUI
+&kp ESC    &kp N1  &kp N2            &kp N3    &kp N4            &kp N5                               &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &none
+&kp GRAVE  &kp Q   &kp W             &kp E     &kp R             &kp T                                &kp Y      &kp U      &kp I      &kp O     &kp P     &kp BSPC
+&kp TAB    &kp A   &kp S             &kp D     &kp F             &kp G                                &kp H      &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z   &kp X             &kp C     &kp V             &kp B      &kp C_MUTE    &kp LG(N0)  &kp N      &kp M      &kp COMMA  &kp DOT   &kp FSLH  &shift_or_caps
+                   &kp LEFT_CONTROL  &kp LALT  &kp LEFT_COMMAND  &kp SPACE  &mo 1         &layer2or3  &kp ENTER  &kp RCTRL  &kp RALT   &kp RGUI
             >;
 
             sensor-bindings =
@@ -105,11 +105,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans     &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp F3    &kp C_AC_SEARCH  &kp F5                                  &kp F6            &kp F7             &kp F8          &kp F9            &kp F10    &kp F11
-&kp GRAVE  &kp EQUAL             &kp MINUS             &kp PLUS  &kp LEFT_BRACE   &kp RIGHT_BRACE                         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN   &kp GREATER_THAN  &kp COLON  &kp F12
-&trans     &kp TILDE             &kp UNDER             &none     &none            &kp LC(SPACE)                           &mkp MB1          &msc SCRL_DOWN     &mmv MOVE_UP    &msc SCRL_UP      &none      &kp PIPE
-&trans     &none                 &none                 &none     &none            &kp LG(LS(NUMBER_4))  &trans    &trans  &mkp MB2          &mmv MOVE_LEFT     &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &none      &write_good_game
-                                 &trans                &trans    &trans           &trans                &trans    &trans  &trans            &trans             &trans          &trans
+&trans     &kp EXCL   &kp AT     &kp HASH   &kp DOLLAR      &kp PERCENT                             &kp CARET         &kp AMPERSAND      &kp ASTRK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F11
+&kp GRAVE  &kp EQUAL  &kp MINUS  &kp PLUS   &kp LEFT_BRACE  &kp RIGHT_BRACE                         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN   &kp GREATER_THAN      &kp COLON              &kp F12
+&trans     &kp TILDE  &kp UNDER  &none      &none           &kp LC(SPACE)                           &mkp MB1          &msc SCRL_DOWN     &mmv MOVE_UP    &msc SCRL_UP          &none                  &kp PIPE
+&trans     &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)       &kp LG(LS(NUMBER_4))  &trans    &trans  &mkp MB2          &mmv MOVE_LEFT     &mmv MOVE_DOWN  &mmv MOVE_RIGHT       &none                  &write_good_game
+                      &trans     &trans     &trans          &trans                &trans    &trans  &trans            &trans             &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
